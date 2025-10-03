@@ -345,7 +345,7 @@ BASE_THRESHOLDS = {
 # ----------------------------
 @st.cache_data
 def load_data():
-    df = pd.read_csv("sample_villages.csv")
+    df = pd.read_csv("sample_villages.CSV")
 
     def parse_list_column(val):
         try:
